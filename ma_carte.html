@@ -1,0 +1,2386 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3bce7d6a07b919885c2be51b7e0f0a4d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3bce7d6a07b919885c2be51b7e0f0a4d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3bce7d6a07b919885c2be51b7e0f0a4d = L.map(
+                "map_3bce7d6a07b919885c2be51b7e0f0a4d",
+                {
+                    center: [39.473596741302956, 25.326372293524958],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_56f5ab40342ed4d5749ac7b9fd1c0b80 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_56f5ab40342ed4d5749ac7b9fd1c0b80.addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+            var circle_marker_752046e2829ab177604bbf79682a4f60 = L.circleMarker(
+                [33.82145707650561, -8.297485371025207],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_a5b0da5425b25378e57296814fbb4dee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_929980d41d242de3b0988086ef18b5b8 = $(`<div id="html_929980d41d242de3b0988086ef18b5b8" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_a5b0da5425b25378e57296814fbb4dee.setContent(html_929980d41d242de3b0988086ef18b5b8);
+            
+        
+
+        circle_marker_752046e2829ab177604bbf79682a4f60.bindPopup(popup_a5b0da5425b25378e57296814fbb4dee)
+        ;
+
+        
+    
+    
+            var circle_marker_88549e10927d6e6d5002b2553ae67662 = L.circleMarker(
+                [33.5039678494144, -7.80012266138268],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_8db0eeffdc0ece24a01910de9fafd9d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ba9c2e5356c86fb9e56d38817e0728a = $(`<div id="html_7ba9c2e5356c86fb9e56d38817e0728a" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_8db0eeffdc0ece24a01910de9fafd9d8.setContent(html_7ba9c2e5356c86fb9e56d38817e0728a);
+            
+        
+
+        circle_marker_88549e10927d6e6d5002b2553ae67662.bindPopup(popup_8db0eeffdc0ece24a01910de9fafd9d8)
+        ;
+
+        
+    
+    
+            var circle_marker_b8448039f5353513b3fe078bf8b4e5d5 = L.circleMarker(
+                [33.896944269050344, -7.761157258263385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_16d9b7fc5bf8b1766638a190090a38ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e5bcf16522de62d93fe29522a349c37 = $(`<div id="html_5e5bcf16522de62d93fe29522a349c37" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_16d9b7fc5bf8b1766638a190090a38ff.setContent(html_5e5bcf16522de62d93fe29522a349c37);
+            
+        
+
+        circle_marker_b8448039f5353513b3fe078bf8b4e5d5.bindPopup(popup_16d9b7fc5bf8b1766638a190090a38ff)
+        ;
+
+        
+    
+    
+            var circle_marker_bc582fcca1e06cc5a9200ee43f3d6249 = L.circleMarker(
+                [34.33461492820401, -7.99093863461081],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_ec6973b67ed2ad79540726c50395fc7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bac6fd23a217c6fc38387b9357ea2fc5 = $(`<div id="html_bac6fd23a217c6fc38387b9357ea2fc5" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_ec6973b67ed2ad79540726c50395fc7b.setContent(html_bac6fd23a217c6fc38387b9357ea2fc5);
+            
+        
+
+        circle_marker_bc582fcca1e06cc5a9200ee43f3d6249.bindPopup(popup_ec6973b67ed2ad79540726c50395fc7b)
+        ;
+
+        
+    
+    
+            var circle_marker_34e7a558f4e9544b4b328417aacffd4b = L.circleMarker(
+                [33.45602331263833, -7.670442855833005],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_fa38c77696bf3f0759bcf4cb3c3925f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b94a0c5dfa0724eb1690ed937b66c8c0 = $(`<div id="html_b94a0c5dfa0724eb1690ed937b66c8c0" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_fa38c77696bf3f0759bcf4cb3c3925f5.setContent(html_b94a0c5dfa0724eb1690ed937b66c8c0);
+            
+        
+
+        circle_marker_34e7a558f4e9544b4b328417aacffd4b.bindPopup(popup_fa38c77696bf3f0759bcf4cb3c3925f5)
+        ;
+
+        
+    
+    
+            var circle_marker_3bc5ac0d0282ac1e4de81ecebccafa4e = L.circleMarker(
+                [33.456031521525404, -7.387774571592731],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_8e4f6f30125614789316b20187df471a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e8cd624963b0cbf1a560aeb2adf30e9 = $(`<div id="html_5e8cd624963b0cbf1a560aeb2adf30e9" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_8e4f6f30125614789316b20187df471a.setContent(html_5e8cd624963b0cbf1a560aeb2adf30e9);
+            
+        
+
+        circle_marker_3bc5ac0d0282ac1e4de81ecebccafa4e.bindPopup(popup_8e4f6f30125614789316b20187df471a)
+        ;
+
+        
+    
+    
+            var circle_marker_6044977586a0f29b09a7243685c06952 = L.circleMarker(
+                [34.36270640775369, -6.6467070493947356],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_5804a58ab7d88778df4c096e43fc2756 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc45e031239a76b85c936ebcf535708e = $(`<div id="html_fc45e031239a76b85c936ebcf535708e" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_5804a58ab7d88778df4c096e43fc2756.setContent(html_fc45e031239a76b85c936ebcf535708e);
+            
+        
+
+        circle_marker_6044977586a0f29b09a7243685c06952.bindPopup(popup_5804a58ab7d88778df4c096e43fc2756)
+        ;
+
+        
+    
+    
+            var circle_marker_e4651abd65698eaeb2e5aad5f69ae0ee = L.circleMarker(
+                [33.95681736457645, -7.502511093584081],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_033a5a45ac5560171efdcb80fe88b0f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bf6cb7d4469a376318d00fa43d0e461 = $(`<div id="html_1bf6cb7d4469a376318d00fa43d0e461" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_033a5a45ac5560171efdcb80fe88b0f2.setContent(html_1bf6cb7d4469a376318d00fa43d0e461);
+            
+        
+
+        circle_marker_e4651abd65698eaeb2e5aad5f69ae0ee.bindPopup(popup_033a5a45ac5560171efdcb80fe88b0f2)
+        ;
+
+        
+    
+    
+            var circle_marker_6991b45082e9dd0346a5c92a80f574b3 = L.circleMarker(
+                [33.33836280703252, -7.461024804638618],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_f2524e812e0f73e680ee40eeb0112c32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e7103348d571c8c705a607e582143fc = $(`<div id="html_8e7103348d571c8c705a607e582143fc" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_f2524e812e0f73e680ee40eeb0112c32.setContent(html_8e7103348d571c8c705a607e582143fc);
+            
+        
+
+        circle_marker_6991b45082e9dd0346a5c92a80f574b3.bindPopup(popup_f2524e812e0f73e680ee40eeb0112c32)
+        ;
+
+        
+    
+    
+            var circle_marker_5c850d5666765d41ca87af59ddbe823b = L.circleMarker(
+                [33.84438002179298, -7.627022957883084],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_48214c606a57634d8700b95b99258290 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aebfbaae46c9d0dce27a07e0ff4dcfac = $(`<div id="html_aebfbaae46c9d0dce27a07e0ff4dcfac" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_48214c606a57634d8700b95b99258290.setContent(html_aebfbaae46c9d0dce27a07e0ff4dcfac);
+            
+        
+
+        circle_marker_5c850d5666765d41ca87af59ddbe823b.bindPopup(popup_48214c606a57634d8700b95b99258290)
+        ;
+
+        
+    
+    
+            var circle_marker_d5bfbd304dc70bfae35b4bf4170bdba1 = L.circleMarker(
+                [33.34139115359377, -8.549185607649521],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_39b4f044f9c0a5922c63c1ba33b1ec90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b7da317f534922a40db322d370318e5 = $(`<div id="html_9b7da317f534922a40db322d370318e5" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_39b4f044f9c0a5922c63c1ba33b1ec90.setContent(html_9b7da317f534922a40db322d370318e5);
+            
+        
+
+        circle_marker_d5bfbd304dc70bfae35b4bf4170bdba1.bindPopup(popup_39b4f044f9c0a5922c63c1ba33b1ec90)
+        ;
+
+        
+    
+    
+            var circle_marker_6b01271355cfa8c9bfe8dc6d33f443bc = L.circleMarker(
+                [33.34023512321487, -7.603056937724609],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_7c6b78475f97278b0306f19d81564273 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a8d77b6f6f77bd3002edf742a69aeac = $(`<div id="html_9a8d77b6f6f77bd3002edf742a69aeac" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_7c6b78475f97278b0306f19d81564273.setContent(html_9a8d77b6f6f77bd3002edf742a69aeac);
+            
+        
+
+        circle_marker_6b01271355cfa8c9bfe8dc6d33f443bc.bindPopup(popup_7c6b78475f97278b0306f19d81564273)
+        ;
+
+        
+    
+    
+            var circle_marker_a53291eabfd72c44bb957c950b705b1d = L.circleMarker(
+                [33.694081135783016, -7.559684895029487],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_f04e31b0d46177cdc81a6d1f6d07ffe6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16f2ee37e5a8d7d9e218bef3493c2e60 = $(`<div id="html_16f2ee37e5a8d7d9e218bef3493c2e60" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_f04e31b0d46177cdc81a6d1f6d07ffe6.setContent(html_16f2ee37e5a8d7d9e218bef3493c2e60);
+            
+        
+
+        circle_marker_a53291eabfd72c44bb957c950b705b1d.bindPopup(popup_f04e31b0d46177cdc81a6d1f6d07ffe6)
+        ;
+
+        
+    
+    
+            var circle_marker_91ea2d809db5e1ce8844f7e3dc550dea = L.circleMarker(
+                [32.6164598776711, -6.358178943757357],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_a41c6e99cce1ed982c65c313d2a5ae24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44cc6c7831ec90170ef16ea8c20c8d9a = $(`<div id="html_44cc6c7831ec90170ef16ea8c20c8d9a" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_a41c6e99cce1ed982c65c313d2a5ae24.setContent(html_44cc6c7831ec90170ef16ea8c20c8d9a);
+            
+        
+
+        circle_marker_91ea2d809db5e1ce8844f7e3dc550dea.bindPopup(popup_a41c6e99cce1ed982c65c313d2a5ae24)
+        ;
+
+        
+    
+    
+            var circle_marker_0639bf075f5a88f83110806a25c12d70 = L.circleMarker(
+                [32.71064108374348, -7.685980482390562],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_84dfeb36d83fed52ceaca2ea918322d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_168a3d094840292b99fe90973fa452ad = $(`<div id="html_168a3d094840292b99fe90973fa452ad" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_84dfeb36d83fed52ceaca2ea918322d9.setContent(html_168a3d094840292b99fe90973fa452ad);
+            
+        
+
+        circle_marker_0639bf075f5a88f83110806a25c12d70.bindPopup(popup_84dfeb36d83fed52ceaca2ea918322d9)
+        ;
+
+        
+    
+    
+            var circle_marker_2353a9acc5ba8d244786bb5492c9a83a = L.circleMarker(
+                [33.29195623537951, -7.439026328833194],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_351985594bc108680c817556aef6eb16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57aac61782d02b788f5b43a34fb703dc = $(`<div id="html_57aac61782d02b788f5b43a34fb703dc" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_351985594bc108680c817556aef6eb16.setContent(html_57aac61782d02b788f5b43a34fb703dc);
+            
+        
+
+        circle_marker_2353a9acc5ba8d244786bb5492c9a83a.bindPopup(popup_351985594bc108680c817556aef6eb16)
+        ;
+
+        
+    
+    
+            var circle_marker_b35365bb702de4d746e88a3784a8cd26 = L.circleMarker(
+                [33.066684439832784, -7.607155884852622],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_6b194d6383e2bdf1d2e468d9cf89201d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0052daa4b547cf660eb7ba721a07a8a0 = $(`<div id="html_0052daa4b547cf660eb7ba721a07a8a0" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_6b194d6383e2bdf1d2e468d9cf89201d.setContent(html_0052daa4b547cf660eb7ba721a07a8a0);
+            
+        
+
+        circle_marker_b35365bb702de4d746e88a3784a8cd26.bindPopup(popup_6b194d6383e2bdf1d2e468d9cf89201d)
+        ;
+
+        
+    
+    
+            var circle_marker_ee88c269b94e428bbbf60748099b9638 = L.circleMarker(
+                [33.73022366629763, -8.174139018809766],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_f3c801e2610c3932a6aec898677be582 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fafe700053031dc97426aacea220ea50 = $(`<div id="html_fafe700053031dc97426aacea220ea50" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_f3c801e2610c3932a6aec898677be582.setContent(html_fafe700053031dc97426aacea220ea50);
+            
+        
+
+        circle_marker_ee88c269b94e428bbbf60748099b9638.bindPopup(popup_f3c801e2610c3932a6aec898677be582)
+        ;
+
+        
+    
+    
+            var circle_marker_31b71dfb30cd9d4c7c7177d18350ba95 = L.circleMarker(
+                [33.11908796223939, -7.01838859274249],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_a0249d4790d5cb79c17ef4910d0bd882 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30146d207252c3ba879db1b57ed4bbd8 = $(`<div id="html_30146d207252c3ba879db1b57ed4bbd8" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_a0249d4790d5cb79c17ef4910d0bd882.setContent(html_30146d207252c3ba879db1b57ed4bbd8);
+            
+        
+
+        circle_marker_31b71dfb30cd9d4c7c7177d18350ba95.bindPopup(popup_a0249d4790d5cb79c17ef4910d0bd882)
+        ;
+
+        
+    
+    
+            var circle_marker_9d117b484677e110dd78d8f427c3c446 = L.circleMarker(
+                [32.86694814933235, -7.213833483656614],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_61bb967147f527c2f4e38f65448a70c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f47d3faca7ea1efa2f11e19bef0e5400 = $(`<div id="html_f47d3faca7ea1efa2f11e19bef0e5400" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_61bb967147f527c2f4e38f65448a70c4.setContent(html_f47d3faca7ea1efa2f11e19bef0e5400);
+            
+        
+
+        circle_marker_9d117b484677e110dd78d8f427c3c446.bindPopup(popup_61bb967147f527c2f4e38f65448a70c4)
+        ;
+
+        
+    
+    
+            var circle_marker_9112dbeb6d5f16a868e9520e0ec39dda = L.circleMarker(
+                [34.30592438446077, -7.194284026478477],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_bc64812b506b735a9caadb571454d606 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e30b02832a9dbb37fd849842781b7667 = $(`<div id="html_e30b02832a9dbb37fd849842781b7667" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_bc64812b506b735a9caadb571454d606.setContent(html_e30b02832a9dbb37fd849842781b7667);
+            
+        
+
+        circle_marker_9112dbeb6d5f16a868e9520e0ec39dda.bindPopup(popup_bc64812b506b735a9caadb571454d606)
+        ;
+
+        
+    
+    
+            var circle_marker_33533c1ba4cf6d9755b0fee93be36ccf = L.circleMarker(
+                [33.46021184975673, -8.04449372739737],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_38f7959b7efb5c6a5074c12a7e1287f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2528092ee21f055666449e6d721c6ca4 = $(`<div id="html_2528092ee21f055666449e6d721c6ca4" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_38f7959b7efb5c6a5074c12a7e1287f3.setContent(html_2528092ee21f055666449e6d721c6ca4);
+            
+        
+
+        circle_marker_33533c1ba4cf6d9755b0fee93be36ccf.bindPopup(popup_38f7959b7efb5c6a5074c12a7e1287f3)
+        ;
+
+        
+    
+    
+            var circle_marker_03ca6816ed2b1a3ede04e13f2e4f1261 = L.circleMarker(
+                [33.606864102343955, -6.888402844531951],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_ff590dc1de6dccbacd9de2766003410e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd6bd0cbaa027d79cb4cca81c24cab5b = $(`<div id="html_cd6bd0cbaa027d79cb4cca81c24cab5b" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_ff590dc1de6dccbacd9de2766003410e.setContent(html_cd6bd0cbaa027d79cb4cca81c24cab5b);
+            
+        
+
+        circle_marker_03ca6816ed2b1a3ede04e13f2e4f1261.bindPopup(popup_ff590dc1de6dccbacd9de2766003410e)
+        ;
+
+        
+    
+    
+            var circle_marker_d8154da314569edd038318c4f1fd07b0 = L.circleMarker(
+                [32.860725906893265, -8.290725531396141],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_f0a1ed1786190dac9d7c79cd18f09ec7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64dde65dd493854979dbd7266e174839 = $(`<div id="html_64dde65dd493854979dbd7266e174839" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_f0a1ed1786190dac9d7c79cd18f09ec7.setContent(html_64dde65dd493854979dbd7266e174839);
+            
+        
+
+        circle_marker_d8154da314569edd038318c4f1fd07b0.bindPopup(popup_f0a1ed1786190dac9d7c79cd18f09ec7)
+        ;
+
+        
+    
+    
+            var circle_marker_ce6d65d865224c8d5cf6aa8763d93732 = L.circleMarker(
+                [33.30090863773741, -7.296371453099865],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_87742f711ff3d679a49335fcc72e3d83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_000d6c538c7105478b29d937a8d8394a = $(`<div id="html_000d6c538c7105478b29d937a8d8394a" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_87742f711ff3d679a49335fcc72e3d83.setContent(html_000d6c538c7105478b29d937a8d8394a);
+            
+        
+
+        circle_marker_ce6d65d865224c8d5cf6aa8763d93732.bindPopup(popup_87742f711ff3d679a49335fcc72e3d83)
+        ;
+
+        
+    
+    
+            var circle_marker_c4cc4f2e5586e9707863f7a36a4804af = L.circleMarker(
+                [33.62856129485493, -6.494572187095011],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_f33f0327ab6526fac29a976c64e0bc02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dca7919b5bc1094889f86934db886bf9 = $(`<div id="html_dca7919b5bc1094889f86934db886bf9" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_f33f0327ab6526fac29a976c64e0bc02.setContent(html_dca7919b5bc1094889f86934db886bf9);
+            
+        
+
+        circle_marker_c4cc4f2e5586e9707863f7a36a4804af.bindPopup(popup_f33f0327ab6526fac29a976c64e0bc02)
+        ;
+
+        
+    
+    
+            var circle_marker_0f6bba7f5afa36815bd07b3085bca72f = L.circleMarker(
+                [32.99760321128885, -8.085068162565344],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_1c9b2602c6c67f253010437143565036 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c709ce7f2a73dd5c1137a3c89c004202 = $(`<div id="html_c709ce7f2a73dd5c1137a3c89c004202" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_1c9b2602c6c67f253010437143565036.setContent(html_c709ce7f2a73dd5c1137a3c89c004202);
+            
+        
+
+        circle_marker_0f6bba7f5afa36815bd07b3085bca72f.bindPopup(popup_1c9b2602c6c67f253010437143565036)
+        ;
+
+        
+    
+    
+            var circle_marker_1648c29a15daca7dbab6aae040a948c1 = L.circleMarker(
+                [33.76094900917283, -7.872948864801386],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_fa9e3de908d431729dfacb8e0217b926 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_701328ccea0123f986b8b7fd568440be = $(`<div id="html_701328ccea0123f986b8b7fd568440be" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_fa9e3de908d431729dfacb8e0217b926.setContent(html_701328ccea0123f986b8b7fd568440be);
+            
+        
+
+        circle_marker_1648c29a15daca7dbab6aae040a948c1.bindPopup(popup_fa9e3de908d431729dfacb8e0217b926)
+        ;
+
+        
+    
+    
+            var circle_marker_b81e7eb167e80bd1d7c52b53e7adfd03 = L.circleMarker(
+                [33.27278065504059, -7.5399743174561795],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_19e12824bc20bf74a80b27044a0e76c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f754aacdc3eeca84d2a3cd681c36d713 = $(`<div id="html_f754aacdc3eeca84d2a3cd681c36d713" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_19e12824bc20bf74a80b27044a0e76c8.setContent(html_f754aacdc3eeca84d2a3cd681c36d713);
+            
+        
+
+        circle_marker_b81e7eb167e80bd1d7c52b53e7adfd03.bindPopup(popup_19e12824bc20bf74a80b27044a0e76c8)
+        ;
+
+        
+    
+    
+            var circle_marker_f188bada5b286b1a97d152f8d500cde0 = L.circleMarker(
+                [33.427253125103356, -7.8415378270581],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_7b05f299aa59274101cbcaed9b8198e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f637608bfd2ba6ed2c1b75a2f98b0a97 = $(`<div id="html_f637608bfd2ba6ed2c1b75a2f98b0a97" style="width: 100.0%; height: 100.0%;">Team: Morocco, Cluster: 2</div>`)[0];
+                popup_7b05f299aa59274101cbcaed9b8198e8.setContent(html_f637608bfd2ba6ed2c1b75a2f98b0a97);
+            
+        
+
+        circle_marker_f188bada5b286b1a97d152f8d500cde0.bindPopup(popup_7b05f299aa59274101cbcaed9b8198e8)
+        ;
+
+        
+    
+    
+            var circle_marker_2606b9d0d738ae547561f3dba4528fdd = L.circleMarker(
+                [40.115946693885306, -4.479131715533066],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_cc9a02fde8fb56aaa4163883e464b461 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_774b8ef4bbe96d345247f47dcedda90f = $(`<div id="html_774b8ef4bbe96d345247f47dcedda90f" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_cc9a02fde8fb56aaa4163883e464b461.setContent(html_774b8ef4bbe96d345247f47dcedda90f);
+            
+        
+
+        circle_marker_2606b9d0d738ae547561f3dba4528fdd.bindPopup(popup_cc9a02fde8fb56aaa4163883e464b461)
+        ;
+
+        
+    
+    
+            var circle_marker_1bb1b800e2d14f41edc2e7a07a7199b9 = L.circleMarker(
+                [41.34293909225447, -3.6695185125969867],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_c55bf234bf757674bea045f9671bd582 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_029d5e45e5fcfda4e0eaf52a4a75b364 = $(`<div id="html_029d5e45e5fcfda4e0eaf52a4a75b364" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_c55bf234bf757674bea045f9671bd582.setContent(html_029d5e45e5fcfda4e0eaf52a4a75b364);
+            
+        
+
+        circle_marker_1bb1b800e2d14f41edc2e7a07a7199b9.bindPopup(popup_c55bf234bf757674bea045f9671bd582)
+        ;
+
+        
+    
+    
+            var circle_marker_6521bacfcccb981d31e283b5cda866e5 = L.circleMarker(
+                [40.410051387631036, -4.234951856863052],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_80e50516363202322b74b440780dfa57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3615f8850aa0a29e6521f3e60cd0fc49 = $(`<div id="html_3615f8850aa0a29e6521f3e60cd0fc49" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_80e50516363202322b74b440780dfa57.setContent(html_3615f8850aa0a29e6521f3e60cd0fc49);
+            
+        
+
+        circle_marker_6521bacfcccb981d31e283b5cda866e5.bindPopup(popup_80e50516363202322b74b440780dfa57)
+        ;
+
+        
+    
+    
+            var circle_marker_c7058d30d8fa9bf16040ed6fb40122aa = L.circleMarker(
+                [39.88794453552205, -3.4670037846824093],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_2b9a6d18d6660d77df5f1edd1b383382 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_906adf6e840746c0dfc27ce8ef755a3f = $(`<div id="html_906adf6e840746c0dfc27ce8ef755a3f" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_2b9a6d18d6660d77df5f1edd1b383382.setContent(html_906adf6e840746c0dfc27ce8ef755a3f);
+            
+        
+
+        circle_marker_c7058d30d8fa9bf16040ed6fb40122aa.bindPopup(popup_2b9a6d18d6660d77df5f1edd1b383382)
+        ;
+
+        
+    
+    
+            var circle_marker_d454a520d3af631fb44ccb13bf26c25c = L.circleMarker(
+                [40.82807245605159, -4.163512117116902],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_07725672b3400afa46aeca0edcd757f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e26d7056025353ed3cf9993bc9e5d42 = $(`<div id="html_5e26d7056025353ed3cf9993bc9e5d42" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_07725672b3400afa46aeca0edcd757f0.setContent(html_5e26d7056025353ed3cf9993bc9e5d42);
+            
+        
+
+        circle_marker_d454a520d3af631fb44ccb13bf26c25c.bindPopup(popup_07725672b3400afa46aeca0edcd757f0)
+        ;
+
+        
+    
+    
+            var circle_marker_91bea270cd043e3e2e04b1ab45f87b14 = L.circleMarker(
+                [39.806378175014494, -2.9288327974912303],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_54502c6e2d240e7103e4911de0f45e34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6669e574cd8114a465e521d05349c22d = $(`<div id="html_6669e574cd8114a465e521d05349c22d" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_54502c6e2d240e7103e4911de0f45e34.setContent(html_6669e574cd8114a465e521d05349c22d);
+            
+        
+
+        circle_marker_91bea270cd043e3e2e04b1ab45f87b14.bindPopup(popup_54502c6e2d240e7103e4911de0f45e34)
+        ;
+
+        
+    
+    
+            var circle_marker_e6b14643ac8ae2af24b06ce49199ad07 = L.circleMarker(
+                [40.52123179750238, -4.095426646168119],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_635598ba68ddf5bdf65f915ebf9b0101 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_861bad0c433f9f14764670b3af5348bf = $(`<div id="html_861bad0c433f9f14764670b3af5348bf" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_635598ba68ddf5bdf65f915ebf9b0101.setContent(html_861bad0c433f9f14764670b3af5348bf);
+            
+        
+
+        circle_marker_e6b14643ac8ae2af24b06ce49199ad07.bindPopup(popup_635598ba68ddf5bdf65f915ebf9b0101)
+        ;
+
+        
+    
+    
+            var circle_marker_aaf66f29c424406b526c971486b21ad0 = L.circleMarker(
+                [39.436964938060115, -3.864830758102838],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_3f46f094323ed96874fd80d0beccf58f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c474986fa7e500db4e31105914bc55e = $(`<div id="html_3c474986fa7e500db4e31105914bc55e" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_3f46f094323ed96874fd80d0beccf58f.setContent(html_3c474986fa7e500db4e31105914bc55e);
+            
+        
+
+        circle_marker_aaf66f29c424406b526c971486b21ad0.bindPopup(popup_3f46f094323ed96874fd80d0beccf58f)
+        ;
+
+        
+    
+    
+            var circle_marker_b96f211e4fdd6e1c39cf51ced70a0cbd = L.circleMarker(
+                [39.75270697555079, -3.2970413913151653],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_92a09d3931af45def98a3fb94421f6d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33e5969bf0a84e45894ea2c4cdb21dde = $(`<div id="html_33e5969bf0a84e45894ea2c4cdb21dde" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_92a09d3931af45def98a3fb94421f6d4.setContent(html_33e5969bf0a84e45894ea2c4cdb21dde);
+            
+        
+
+        circle_marker_b96f211e4fdd6e1c39cf51ced70a0cbd.bindPopup(popup_92a09d3931af45def98a3fb94421f6d4)
+        ;
+
+        
+    
+    
+            var circle_marker_1b825fcfe0c73481f25f2a8d0cdf146a = L.circleMarker(
+                [40.51523061793456, -4.319232158216978],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_69d178073e89875a7131ff925f62680e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e324bba7ee4185e59ab5251aef90f827 = $(`<div id="html_e324bba7ee4185e59ab5251aef90f827" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_69d178073e89875a7131ff925f62680e.setContent(html_e324bba7ee4185e59ab5251aef90f827);
+            
+        
+
+        circle_marker_1b825fcfe0c73481f25f2a8d0cdf146a.bindPopup(popup_69d178073e89875a7131ff925f62680e)
+        ;
+
+        
+    
+    
+            var circle_marker_997f354e4258d1925f8fbf239ca59378 = L.circleMarker(
+                [40.786033289997704, -3.5900700326979353],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_1f6b60860b46a4458808719441ca6b92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_260a710d542962807a18947b3d2b5303 = $(`<div id="html_260a710d542962807a18947b3d2b5303" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_1f6b60860b46a4458808719441ca6b92.setContent(html_260a710d542962807a18947b3d2b5303);
+            
+        
+
+        circle_marker_997f354e4258d1925f8fbf239ca59378.bindPopup(popup_1f6b60860b46a4458808719441ca6b92)
+        ;
+
+        
+    
+    
+            var circle_marker_084d1c641be3d06c734a84c912a9ce9c = L.circleMarker(
+                [40.50248414059499, -3.050228622858786],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_63b96f490e14361bb279a864ce8c9eeb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f1b479b0631dc8f8f47f475554d3a43 = $(`<div id="html_1f1b479b0631dc8f8f47f475554d3a43" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_63b96f490e14361bb279a864ce8c9eeb.setContent(html_1f1b479b0631dc8f8f47f475554d3a43);
+            
+        
+
+        circle_marker_084d1c641be3d06c734a84c912a9ce9c.bindPopup(popup_63b96f490e14361bb279a864ce8c9eeb)
+        ;
+
+        
+    
+    
+            var circle_marker_cfcee7c31e7a48a2f5a71dfa085b36d8 = L.circleMarker(
+                [40.358975858805884, -4.507541617280614],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_83578c0877e71de309cb05b080f40fb5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75afb55222db756ff0feee3e86cd77cd = $(`<div id="html_75afb55222db756ff0feee3e86cd77cd" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_83578c0877e71de309cb05b080f40fb5.setContent(html_75afb55222db756ff0feee3e86cd77cd);
+            
+        
+
+        circle_marker_cfcee7c31e7a48a2f5a71dfa085b36d8.bindPopup(popup_83578c0877e71de309cb05b080f40fb5)
+        ;
+
+        
+    
+    
+            var circle_marker_73728fad27b9295a20f5a930b1d1081d = L.circleMarker(
+                [40.26624815220536, -3.611483070733848],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_1eedd585994b191b8a87064738645d22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c701ba368ad732cb91c84a3ad0b692e5 = $(`<div id="html_c701ba368ad732cb91c84a3ad0b692e5" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_1eedd585994b191b8a87064738645d22.setContent(html_c701ba368ad732cb91c84a3ad0b692e5);
+            
+        
+
+        circle_marker_73728fad27b9295a20f5a930b1d1081d.bindPopup(popup_1eedd585994b191b8a87064738645d22)
+        ;
+
+        
+    
+    
+            var circle_marker_ec49f97ce711524690257558d6103574 = L.circleMarker(
+                [39.67753900481629, -3.5738586028757884],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_a38d957de0bf80c301cd1d98cb4e738c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4b69fe691990728560971c283523898 = $(`<div id="html_e4b69fe691990728560971c283523898" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_a38d957de0bf80c301cd1d98cb4e738c.setContent(html_e4b69fe691990728560971c283523898);
+            
+        
+
+        circle_marker_ec49f97ce711524690257558d6103574.bindPopup(popup_a38d957de0bf80c301cd1d98cb4e738c)
+        ;
+
+        
+    
+    
+            var circle_marker_76f821fb0980828f6ef4ced10cfbe2e9 = L.circleMarker(
+                [40.05687789580265, -3.3128885641113452],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_1d2a637dea22e9d8ce8e681a47c090d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae571431242adc700b74c992a1a01a54 = $(`<div id="html_ae571431242adc700b74c992a1a01a54" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_1d2a637dea22e9d8ce8e681a47c090d0.setContent(html_ae571431242adc700b74c992a1a01a54);
+            
+        
+
+        circle_marker_76f821fb0980828f6ef4ced10cfbe2e9.bindPopup(popup_1d2a637dea22e9d8ce8e681a47c090d0)
+        ;
+
+        
+    
+    
+            var circle_marker_dd96b4a44c10e615527a6841969688e4 = L.circleMarker(
+                [40.18648061452011, -4.322275355439041],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_0a462883252bc8fb542b83bd7eed8dd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0131fbba81196a8827a23941c87ce02d = $(`<div id="html_0131fbba81196a8827a23941c87ce02d" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_0a462883252bc8fb542b83bd7eed8dd4.setContent(html_0131fbba81196a8827a23941c87ce02d);
+            
+        
+
+        circle_marker_dd96b4a44c10e615527a6841969688e4.bindPopup(popup_0a462883252bc8fb542b83bd7eed8dd4)
+        ;
+
+        
+    
+    
+            var circle_marker_0a2ecb0676b09ede223b71316d3b1989 = L.circleMarker(
+                [40.94536111310946, -4.364028306542139],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_1c983d34f88debd9d51fb1f1e4aa617e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50aa4ca3ed1356f4faab2e6e796f5409 = $(`<div id="html_50aa4ca3ed1356f4faab2e6e796f5409" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_1c983d34f88debd9d51fb1f1e4aa617e.setContent(html_50aa4ca3ed1356f4faab2e6e796f5409);
+            
+        
+
+        circle_marker_0a2ecb0676b09ede223b71316d3b1989.bindPopup(popup_1c983d34f88debd9d51fb1f1e4aa617e)
+        ;
+
+        
+    
+    
+            var circle_marker_b2a02a52a47ba806aa3e9f4e51fc2d31 = L.circleMarker(
+                [40.588609144784236, -3.4428292171915515],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_f7323ecde1acf8e53f7c2298162808ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4c4a80d0284375f0ad64978a96a5504 = $(`<div id="html_b4c4a80d0284375f0ad64978a96a5504" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_f7323ecde1acf8e53f7c2298162808ca.setContent(html_b4c4a80d0284375f0ad64978a96a5504);
+            
+        
+
+        circle_marker_b2a02a52a47ba806aa3e9f4e51fc2d31.bindPopup(popup_f7323ecde1acf8e53f7c2298162808ca)
+        ;
+
+        
+    
+    
+            var circle_marker_5a21a2fd71335263f9dd678ad03f23da = L.circleMarker(
+                [39.53527992231864, -3.5553076633834073],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_d9f8bf5f17de878799249dadc049aa10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bb980cc449ec635941d4e3c2e5c904a = $(`<div id="html_8bb980cc449ec635941d4e3c2e5c904a" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_d9f8bf5f17de878799249dadc049aa10.setContent(html_8bb980cc449ec635941d4e3c2e5c904a);
+            
+        
+
+        circle_marker_5a21a2fd71335263f9dd678ad03f23da.bindPopup(popup_d9f8bf5f17de878799249dadc049aa10)
+        ;
+
+        
+    
+    
+            var circle_marker_02b15c8ab4faa02fdcc1bcc75f5a3449 = L.circleMarker(
+                [40.5788419846974, -3.578553574827062],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_7d0a70bd78c83d7adc9c9e90cb2c3eba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1769f5b859ee88e2be7f405953f8dd60 = $(`<div id="html_1769f5b859ee88e2be7f405953f8dd60" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_7d0a70bd78c83d7adc9c9e90cb2c3eba.setContent(html_1769f5b859ee88e2be7f405953f8dd60);
+            
+        
+
+        circle_marker_02b15c8ab4faa02fdcc1bcc75f5a3449.bindPopup(popup_7d0a70bd78c83d7adc9c9e90cb2c3eba)
+        ;
+
+        
+    
+    
+            var circle_marker_bca2f2e3eebf047abc94ba363f1ab033 = L.circleMarker(
+                [40.224258859791846, -3.5305758952515123],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_43dc0136ead978d01e351c8a8ac8de67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57b44c5cb7fd3d0b0c586c456bc53f4b = $(`<div id="html_57b44c5cb7fd3d0b0c586c456bc53f4b" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_43dc0136ead978d01e351c8a8ac8de67.setContent(html_57b44c5cb7fd3d0b0c586c456bc53f4b);
+            
+        
+
+        circle_marker_bca2f2e3eebf047abc94ba363f1ab033.bindPopup(popup_43dc0136ead978d01e351c8a8ac8de67)
+        ;
+
+        
+    
+    
+            var circle_marker_8ba0c464acdc9dfd4f82822c96ffa559 = L.circleMarker(
+                [40.07833899984702, -4.0438123607892456],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_72899cbdb3e5a9ea396e705fc8cb54f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca9c1db198acfb9fb406ec18b5232aa0 = $(`<div id="html_ca9c1db198acfb9fb406ec18b5232aa0" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_72899cbdb3e5a9ea396e705fc8cb54f1.setContent(html_ca9c1db198acfb9fb406ec18b5232aa0);
+            
+        
+
+        circle_marker_8ba0c464acdc9dfd4f82822c96ffa559.bindPopup(popup_72899cbdb3e5a9ea396e705fc8cb54f1)
+        ;
+
+        
+    
+    
+            var circle_marker_a92a3ef3f6e563415e152ee05425cf87 = L.circleMarker(
+                [40.722638144420436, -3.5876731514194984],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_8df243490ac2b8feb7cc3eff9ba50736 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ca164904dcbeb6d66abf7231cac7daa = $(`<div id="html_6ca164904dcbeb6d66abf7231cac7daa" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_8df243490ac2b8feb7cc3eff9ba50736.setContent(html_6ca164904dcbeb6d66abf7231cac7daa);
+            
+        
+
+        circle_marker_a92a3ef3f6e563415e152ee05425cf87.bindPopup(popup_8df243490ac2b8feb7cc3eff9ba50736)
+        ;
+
+        
+    
+    
+            var circle_marker_b99ee529673f74df14f83e9b5909dccc = L.circleMarker(
+                [40.932299761247975, -3.5572637633506594],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_1362c23a007cd2b6ef106b7cb8b5c36c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71267859a7412b5c341fc66a5605714c = $(`<div id="html_71267859a7412b5c341fc66a5605714c" style="width: 100.0%; height: 100.0%;">Team: Spain, Cluster: 0</div>`)[0];
+                popup_1362c23a007cd2b6ef106b7cb8b5c36c.setContent(html_71267859a7412b5c341fc66a5605714c);
+            
+        
+
+        circle_marker_b99ee529673f74df14f83e9b5909dccc.bindPopup(popup_1362c23a007cd2b6ef106b7cb8b5c36c)
+        ;
+
+        
+    
+    
+            var circle_marker_b75ccd75630e9835e4fced4e43d2cacc = L.circleMarker(
+                [49.3222400595581, 1.9950242909868159],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_0a7495f0c76a56826c1a5b7680ad0721 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca7c1a4a053209ef6737701bce3bfca1 = $(`<div id="html_ca7c1a4a053209ef6737701bce3bfca1" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_0a7495f0c76a56826c1a5b7680ad0721.setContent(html_ca7c1a4a053209ef6737701bce3bfca1);
+            
+        
+
+        circle_marker_b75ccd75630e9835e4fced4e43d2cacc.bindPopup(popup_0a7495f0c76a56826c1a5b7680ad0721)
+        ;
+
+        
+    
+    
+            var circle_marker_d492ed9909d513e0479b6a86a5a8385a = L.circleMarker(
+                [48.43699123838868, 3.2850872555723782],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_0d73e80ea7cedae59b9beb55309d9db0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c67e694d8a5f556559ab12aa91d0e91c = $(`<div id="html_c67e694d8a5f556559ab12aa91d0e91c" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_0d73e80ea7cedae59b9beb55309d9db0.setContent(html_c67e694d8a5f556559ab12aa91d0e91c);
+            
+        
+
+        circle_marker_d492ed9909d513e0479b6a86a5a8385a.bindPopup(popup_0d73e80ea7cedae59b9beb55309d9db0)
+        ;
+
+        
+    
+    
+            var circle_marker_12c48a167e8184f78e0c1004c8fd12c4 = L.circleMarker(
+                [48.70199381207439, 2.5891164604558936],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_aa9b7347dc9fd3c9b6e75f2d7a9e098b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e97dda6a067a6ec31e1bf1d13615c41f = $(`<div id="html_e97dda6a067a6ec31e1bf1d13615c41f" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_aa9b7347dc9fd3c9b6e75f2d7a9e098b.setContent(html_e97dda6a067a6ec31e1bf1d13615c41f);
+            
+        
+
+        circle_marker_12c48a167e8184f78e0c1004c8fd12c4.bindPopup(popup_aa9b7347dc9fd3c9b6e75f2d7a9e098b)
+        ;
+
+        
+    
+    
+            var circle_marker_5682fdea2d8f1b00d512da912eb2135f = L.circleMarker(
+                [49.022231715701786, 1.7565482513986757],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_222a4caf5b004971ed7d4ab175ed2648 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2003b90e6791b283c4e15efe6c4c5b2 = $(`<div id="html_c2003b90e6791b283c4e15efe6c4c5b2" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_222a4caf5b004971ed7d4ab175ed2648.setContent(html_c2003b90e6791b283c4e15efe6c4c5b2);
+            
+        
+
+        circle_marker_5682fdea2d8f1b00d512da912eb2135f.bindPopup(popup_222a4caf5b004971ed7d4ab175ed2648)
+        ;
+
+        
+    
+    
+            var circle_marker_f92a2d921441bc498b206071c0eff8b2 = L.circleMarker(
+                [49.34437256356118, 2.680476804316915],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_288a02f2024b7af065270cea4b35a34c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae8e02bfef28403f46d9c7e2658b5d7f = $(`<div id="html_ae8e02bfef28403f46d9c7e2658b5d7f" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_288a02f2024b7af065270cea4b35a34c.setContent(html_ae8e02bfef28403f46d9c7e2658b5d7f);
+            
+        
+
+        circle_marker_f92a2d921441bc498b206071c0eff8b2.bindPopup(popup_288a02f2024b7af065270cea4b35a34c)
+        ;
+
+        
+    
+    
+            var circle_marker_f0695d1bbc88f0980a303a675f0ceb82 = L.circleMarker(
+                [48.61701288107736, 1.864859164886339],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_442aa5d9a9ec07aad7073ed451850e40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a7bdb97041361dec228054756588eb1 = $(`<div id="html_9a7bdb97041361dec228054756588eb1" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_442aa5d9a9ec07aad7073ed451850e40.setContent(html_9a7bdb97041361dec228054756588eb1);
+            
+        
+
+        circle_marker_f0695d1bbc88f0980a303a675f0ceb82.bindPopup(popup_442aa5d9a9ec07aad7073ed451850e40)
+        ;
+
+        
+    
+    
+            var circle_marker_18dcb661bf09ae07da04779bc09acbae = L.circleMarker(
+                [48.76377051166809, 2.7457423018712257],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_78ff00750b9c62b8a5e44feec375ae08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ebf3b7af166090388f948776af91a27 = $(`<div id="html_4ebf3b7af166090388f948776af91a27" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_78ff00750b9c62b8a5e44feec375ae08.setContent(html_4ebf3b7af166090388f948776af91a27);
+            
+        
+
+        circle_marker_18dcb661bf09ae07da04779bc09acbae.bindPopup(popup_78ff00750b9c62b8a5e44feec375ae08)
+        ;
+
+        
+    
+    
+            var circle_marker_ac84472d7fa0d7e1eff1000f9999ffb9 = L.circleMarker(
+                [48.303432512996984, 2.9314977895037018],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_264e2addceccbd6c1c7c1b16c489c6f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78b33cc3e51b652948865860462e7e60 = $(`<div id="html_78b33cc3e51b652948865860462e7e60" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_264e2addceccbd6c1c7c1b16c489c6f4.setContent(html_78b33cc3e51b652948865860462e7e60);
+            
+        
+
+        circle_marker_ac84472d7fa0d7e1eff1000f9999ffb9.bindPopup(popup_264e2addceccbd6c1c7c1b16c489c6f4)
+        ;
+
+        
+    
+    
+            var circle_marker_d5a689b92bdf52dde90ae317d5607dc3 = L.circleMarker(
+                [48.25849668795966, 1.9418588408241446],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_9ec60f90abd2d06646008d674cbf20b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ccd1c888ef282328fe30a0549984b4f = $(`<div id="html_2ccd1c888ef282328fe30a0549984b4f" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_9ec60f90abd2d06646008d674cbf20b9.setContent(html_2ccd1c888ef282328fe30a0549984b4f);
+            
+        
+
+        circle_marker_d5a689b92bdf52dde90ae317d5607dc3.bindPopup(popup_9ec60f90abd2d06646008d674cbf20b9)
+        ;
+
+        
+    
+    
+            var circle_marker_a43894da6f4abd2e79b3d0f76405cde3 = L.circleMarker(
+                [49.2628629111971, 2.833888064622161],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_1ff36e4c81febef20cc87f157802ac61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ae41ccb19b37936968a1b1cae535835 = $(`<div id="html_2ae41ccb19b37936968a1b1cae535835" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_1ff36e4c81febef20cc87f157802ac61.setContent(html_2ae41ccb19b37936968a1b1cae535835);
+            
+        
+
+        circle_marker_a43894da6f4abd2e79b3d0f76405cde3.bindPopup(popup_1ff36e4c81febef20cc87f157802ac61)
+        ;
+
+        
+    
+    
+            var circle_marker_11c0ccfbdc7e0cf5106a060bfecf1675 = L.circleMarker(
+                [49.53472001428541, 2.558590463468249],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_22dcc21dbb5a6ac939d4563ced47e88e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b8abd95d29b949e18f0c6a5c09aeb67 = $(`<div id="html_7b8abd95d29b949e18f0c6a5c09aeb67" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_22dcc21dbb5a6ac939d4563ced47e88e.setContent(html_7b8abd95d29b949e18f0c6a5c09aeb67);
+            
+        
+
+        circle_marker_11c0ccfbdc7e0cf5106a060bfecf1675.bindPopup(popup_22dcc21dbb5a6ac939d4563ced47e88e)
+        ;
+
+        
+    
+    
+            var circle_marker_14b3312dd670a01171c96b12bccf17fb = L.circleMarker(
+                [48.82059493920983, 2.763230079997245],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_a369c1ab40fd3f01399580c024d96516 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0fbaee769d30dce6c0d77c2b46094ad = $(`<div id="html_d0fbaee769d30dce6c0d77c2b46094ad" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_a369c1ab40fd3f01399580c024d96516.setContent(html_d0fbaee769d30dce6c0d77c2b46094ad);
+            
+        
+
+        circle_marker_14b3312dd670a01171c96b12bccf17fb.bindPopup(popup_a369c1ab40fd3f01399580c024d96516)
+        ;
+
+        
+    
+    
+            var circle_marker_25aeb59b37e50476f79809c9a18a38bb = L.circleMarker(
+                [49.358366448946015, 3.3005964913269734],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_2f5298e7f34dbf112671e8348389eb13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cf0add55fcaf344f745989447ce5fd7 = $(`<div id="html_2cf0add55fcaf344f745989447ce5fd7" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_2f5298e7f34dbf112671e8348389eb13.setContent(html_2cf0add55fcaf344f745989447ce5fd7);
+            
+        
+
+        circle_marker_25aeb59b37e50476f79809c9a18a38bb.bindPopup(popup_2f5298e7f34dbf112671e8348389eb13)
+        ;
+
+        
+    
+    
+            var circle_marker_0ae483e67f0ebff08d611a0a03986c80 = L.circleMarker(
+                [49.037418012523815, 2.2295059419985646],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_7e4401c99d4ab81f20951e9360d778d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e947136306dad8ad5d50f011c011ecbc = $(`<div id="html_e947136306dad8ad5d50f011c011ecbc" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_7e4401c99d4ab81f20951e9360d778d7.setContent(html_e947136306dad8ad5d50f011c011ecbc);
+            
+        
+
+        circle_marker_0ae483e67f0ebff08d611a0a03986c80.bindPopup(popup_7e4401c99d4ab81f20951e9360d778d7)
+        ;
+
+        
+    
+    
+            var circle_marker_594d04d9516ad30194d69f97a41922c4 = L.circleMarker(
+                [48.53404012269744, 1.9753319178212552],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_28d3719a0a7d5e9169e705da67b6429d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80ae32aba6eb911d1763693b1dc75b10 = $(`<div id="html_80ae32aba6eb911d1763693b1dc75b10" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_28d3719a0a7d5e9169e705da67b6429d.setContent(html_80ae32aba6eb911d1763693b1dc75b10);
+            
+        
+
+        circle_marker_594d04d9516ad30194d69f97a41922c4.bindPopup(popup_28d3719a0a7d5e9169e705da67b6429d)
+        ;
+
+        
+    
+    
+            var circle_marker_f3917d4a31f0b4dd37b2be9a99736d4c = L.circleMarker(
+                [49.03729780275421, 1.9074427851872382],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_7e8d1826341372ca40b727abf012624a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b54c40e91737be7836e00a419233aa21 = $(`<div id="html_b54c40e91737be7836e00a419233aa21" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_7e8d1826341372ca40b727abf012624a.setContent(html_b54c40e91737be7836e00a419233aa21);
+            
+        
+
+        circle_marker_f3917d4a31f0b4dd37b2be9a99736d4c.bindPopup(popup_7e8d1826341372ca40b727abf012624a)
+        ;
+
+        
+    
+    
+            var circle_marker_c8df873bab2876c2b88df8ab1e35b608 = L.circleMarker(
+                [49.62561828323298, 1.9442948575172807],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_c8e4bcee3448dc2e5c5a09fe4a6d03f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce30943329d0ca41048df2d3053d6bf1 = $(`<div id="html_ce30943329d0ca41048df2d3053d6bf1" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_c8e4bcee3448dc2e5c5a09fe4a6d03f8.setContent(html_ce30943329d0ca41048df2d3053d6bf1);
+            
+        
+
+        circle_marker_c8df873bab2876c2b88df8ab1e35b608.bindPopup(popup_c8e4bcee3448dc2e5c5a09fe4a6d03f8)
+        ;
+
+        
+    
+    
+            var circle_marker_83950112f984678105d182529bcfc627 = L.circleMarker(
+                [48.838686980445026, 2.3136491452929477],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_020351fbc3f482ebd237b606976934a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b81d6d876a2fea7d693a7248d2aa317 = $(`<div id="html_8b81d6d876a2fea7d693a7248d2aa317" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_020351fbc3f482ebd237b606976934a3.setContent(html_8b81d6d876a2fea7d693a7248d2aa317);
+            
+        
+
+        circle_marker_83950112f984678105d182529bcfc627.bindPopup(popup_020351fbc3f482ebd237b606976934a3)
+        ;
+
+        
+    
+    
+            var circle_marker_7ebc0d9be2faf667c4cd43a9b36775f3 = L.circleMarker(
+                [49.638921827907005, 2.522775987408322],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_1eb9eaba11ac947ece4729c75576f233 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9f8eb74e1256afc627381116a2ff1e7 = $(`<div id="html_f9f8eb74e1256afc627381116a2ff1e7" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_1eb9eaba11ac947ece4729c75576f233.setContent(html_f9f8eb74e1256afc627381116a2ff1e7);
+            
+        
+
+        circle_marker_7ebc0d9be2faf667c4cd43a9b36775f3.bindPopup(popup_1eb9eaba11ac947ece4729c75576f233)
+        ;
+
+        
+    
+    
+            var circle_marker_2cc57c38595eaac1014a7b753ab8e257 = L.circleMarker(
+                [47.54672744795513, 2.4905453996650095],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_a82206cd577d42d3ec57914c79a133e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aad0c613d0b4a4c28a1f96bcca618aa5 = $(`<div id="html_aad0c613d0b4a4c28a1f96bcca618aa5" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_a82206cd577d42d3ec57914c79a133e1.setContent(html_aad0c613d0b4a4c28a1f96bcca618aa5);
+            
+        
+
+        circle_marker_2cc57c38595eaac1014a7b753ab8e257.bindPopup(popup_a82206cd577d42d3ec57914c79a133e1)
+        ;
+
+        
+    
+    
+            var circle_marker_0ebc5e1718e01d6aa114bc3d640da907 = L.circleMarker(
+                [49.26755125218761, 2.7657916245180116],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_afbb3242e17f313342321c305d742914 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa92f8b792075f800b767d2805b3ed7b = $(`<div id="html_fa92f8b792075f800b767d2805b3ed7b" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_afbb3242e17f313342321c305d742914.setContent(html_fa92f8b792075f800b767d2805b3ed7b);
+            
+        
+
+        circle_marker_0ebc5e1718e01d6aa114bc3d640da907.bindPopup(popup_afbb3242e17f313342321c305d742914)
+        ;
+
+        
+    
+    
+            var circle_marker_377883f8d92ec15d8c0e5ae1f98acebf = L.circleMarker(
+                [48.90012353411909, 2.358700945938953],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_37ba553afa91a521ff55f92b6327f33f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48ab357657eff1c0f083fdb512eb224c = $(`<div id="html_48ab357657eff1c0f083fdb512eb224c" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_37ba553afa91a521ff55f92b6327f33f.setContent(html_48ab357657eff1c0f083fdb512eb224c);
+            
+        
+
+        circle_marker_377883f8d92ec15d8c0e5ae1f98acebf.bindPopup(popup_37ba553afa91a521ff55f92b6327f33f)
+        ;
+
+        
+    
+    
+            var circle_marker_d1ba87f72d49370886979f54fce04d9a = L.circleMarker(
+                [48.707096324767065, 3.078967038578658],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_6d97919d56e406217f74adbe7481d1af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c927bf8f413f191c0cd1f70ac3588a0b = $(`<div id="html_c927bf8f413f191c0cd1f70ac3588a0b" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_6d97919d56e406217f74adbe7481d1af.setContent(html_c927bf8f413f191c0cd1f70ac3588a0b);
+            
+        
+
+        circle_marker_d1ba87f72d49370886979f54fce04d9a.bindPopup(popup_6d97919d56e406217f74adbe7481d1af)
+        ;
+
+        
+    
+    
+            var circle_marker_d9c7668f00cf73e0d74b06a7af8133bb = L.circleMarker(
+                [48.902480388267755, 2.2198715833810216],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_5efd5b03a79aebdb9e68603accae7682 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bb582baeb5b69532041e72d32752dad = $(`<div id="html_3bb582baeb5b69532041e72d32752dad" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_5efd5b03a79aebdb9e68603accae7682.setContent(html_3bb582baeb5b69532041e72d32752dad);
+            
+        
+
+        circle_marker_d9c7668f00cf73e0d74b06a7af8133bb.bindPopup(popup_5efd5b03a79aebdb9e68603accae7682)
+        ;
+
+        
+    
+    
+            var circle_marker_d0fe77f154356ccde58ad8596870dd43 = L.circleMarker(
+                [47.86281554269955, 3.7122845832948093],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_c434ccd5cb81a6d22879b32c1a973364 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4219d68f54181dd1a5c3df352244933 = $(`<div id="html_b4219d68f54181dd1a5c3df352244933" style="width: 100.0%; height: 100.0%;">Team: France, Cluster: 1</div>`)[0];
+                popup_c434ccd5cb81a6d22879b32c1a973364.setContent(html_b4219d68f54181dd1a5c3df352244933);
+            
+        
+
+        circle_marker_d0fe77f154356ccde58ad8596870dd43.bindPopup(popup_c434ccd5cb81a6d22879b32c1a973364)
+        ;
+
+        
+    
+    
+            var circle_marker_82933222271a1a8986ca59698d6e5681 = L.circleMarker(
+                [35.56636405608125, 139.96313367388248],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_40749299ba8c0c17f5fb30f09e54f10a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f731a43da73d2f5f6c062c3fbd486ff = $(`<div id="html_1f731a43da73d2f5f6c062c3fbd486ff" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_40749299ba8c0c17f5fb30f09e54f10a.setContent(html_1f731a43da73d2f5f6c062c3fbd486ff);
+            
+        
+
+        circle_marker_82933222271a1a8986ca59698d6e5681.bindPopup(popup_40749299ba8c0c17f5fb30f09e54f10a)
+        ;
+
+        
+    
+    
+            var circle_marker_707149d7c6fe3c82a3a48d56b4428f6a = L.circleMarker(
+                [35.854756285755876, 139.22172122179185],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_029e648d67ebbceb9d301bfee5d7e054 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08ae6754eae836b8cb1c7845a1db1852 = $(`<div id="html_08ae6754eae836b8cb1c7845a1db1852" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_029e648d67ebbceb9d301bfee5d7e054.setContent(html_08ae6754eae836b8cb1c7845a1db1852);
+            
+        
+
+        circle_marker_707149d7c6fe3c82a3a48d56b4428f6a.bindPopup(popup_029e648d67ebbceb9d301bfee5d7e054)
+        ;
+
+        
+    
+    
+            var circle_marker_5ba18aef6d9945686c2b10de8defa009 = L.circleMarker(
+                [36.41514702237076, 139.11485375096944],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_e905f3794ee3c67e08206302fd9b8e2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02ccb3d7c7049f7d3605d23d960fb7e4 = $(`<div id="html_02ccb3d7c7049f7d3605d23d960fb7e4" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_e905f3794ee3c67e08206302fd9b8e2b.setContent(html_02ccb3d7c7049f7d3605d23d960fb7e4);
+            
+        
+
+        circle_marker_5ba18aef6d9945686c2b10de8defa009.bindPopup(popup_e905f3794ee3c67e08206302fd9b8e2b)
+        ;
+
+        
+    
+    
+            var circle_marker_0f352effd9f7287b11b093a4fba20137 = L.circleMarker(
+                [35.41706489086318, 139.89153620762158],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_19090a4311346ea1c38a98e38ca7a8d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b51616a85d538dc011d2ff0b47d6e5e = $(`<div id="html_0b51616a85d538dc011d2ff0b47d6e5e" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_19090a4311346ea1c38a98e38ca7a8d2.setContent(html_0b51616a85d538dc011d2ff0b47d6e5e);
+            
+        
+
+        circle_marker_0f352effd9f7287b11b093a4fba20137.bindPopup(popup_19090a4311346ea1c38a98e38ca7a8d2)
+        ;
+
+        
+    
+    
+            var circle_marker_312db09f9946b28f210eb3d0a75d0d15 = L.circleMarker(
+                [35.271953198553405, 139.53856860733706],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_ae7f246a399d02740fdf77956d27c33e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac4009c2f55fb7fba0ca81195dc8bf2d = $(`<div id="html_ac4009c2f55fb7fba0ca81195dc8bf2d" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_ae7f246a399d02740fdf77956d27c33e.setContent(html_ac4009c2f55fb7fba0ca81195dc8bf2d);
+            
+        
+
+        circle_marker_312db09f9946b28f210eb3d0a75d0d15.bindPopup(popup_ae7f246a399d02740fdf77956d27c33e)
+        ;
+
+        
+    
+    
+            var circle_marker_545ed7ff6044519cc8b9630ccfe47bc9 = L.circleMarker(
+                [35.425321478207735, 140.00730024704603],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_b60a3561f5ad4494897546c34cc1a2ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e9b225439baab6d5a07b67f89d3b47e = $(`<div id="html_7e9b225439baab6d5a07b67f89d3b47e" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_b60a3561f5ad4494897546c34cc1a2ee.setContent(html_7e9b225439baab6d5a07b67f89d3b47e);
+            
+        
+
+        circle_marker_545ed7ff6044519cc8b9630ccfe47bc9.bindPopup(popup_b60a3561f5ad4494897546c34cc1a2ee)
+        ;
+
+        
+    
+    
+            var circle_marker_9fafbb269d018d11848fca8629c3074a = L.circleMarker(
+                [36.13390105885104, 139.88691881228675],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_683e1d38759aa69dc873dd7b2cf8d2de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f404ff3e9ffd17abbfd0ff4181933a05 = $(`<div id="html_f404ff3e9ffd17abbfd0ff4181933a05" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_683e1d38759aa69dc873dd7b2cf8d2de.setContent(html_f404ff3e9ffd17abbfd0ff4181933a05);
+            
+        
+
+        circle_marker_9fafbb269d018d11848fca8629c3074a.bindPopup(popup_683e1d38759aa69dc873dd7b2cf8d2de)
+        ;
+
+        
+    
+    
+            var circle_marker_7b6f87b0895fc4c562354e417062a410 = L.circleMarker(
+                [35.84057555482984, 139.61388554367156],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_f6155e3a9a121f9c21ea5c8c77836057 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30d82b43260828744d2d9eac0e66be2a = $(`<div id="html_30d82b43260828744d2d9eac0e66be2a" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_f6155e3a9a121f9c21ea5c8c77836057.setContent(html_30d82b43260828744d2d9eac0e66be2a);
+            
+        
+
+        circle_marker_7b6f87b0895fc4c562354e417062a410.bindPopup(popup_f6155e3a9a121f9c21ea5c8c77836057)
+        ;
+
+        
+    
+    
+            var circle_marker_cfcf4875f2c01f1ae373adad9af50fc7 = L.circleMarker(
+                [35.41131989811648, 139.2269031409658],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_ebcd7c8254b1ed1b74c519b950029eaa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed051a0441f8b7fc51914b00edb07489 = $(`<div id="html_ed051a0441f8b7fc51914b00edb07489" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_ebcd7c8254b1ed1b74c519b950029eaa.setContent(html_ed051a0441f8b7fc51914b00edb07489);
+            
+        
+
+        circle_marker_cfcf4875f2c01f1ae373adad9af50fc7.bindPopup(popup_ebcd7c8254b1ed1b74c519b950029eaa)
+        ;
+
+        
+    
+    
+            var circle_marker_037f738d7ac0b3b00d3aa90582d1307c = L.circleMarker(
+                [35.93283371655668, 138.89287638765705],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_16e32ed38711ea624f51aa898810b0d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a759afccb1fcb6e11cbf35aaecb3e83c = $(`<div id="html_a759afccb1fcb6e11cbf35aaecb3e83c" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_16e32ed38711ea624f51aa898810b0d3.setContent(html_a759afccb1fcb6e11cbf35aaecb3e83c);
+            
+        
+
+        circle_marker_037f738d7ac0b3b00d3aa90582d1307c.bindPopup(popup_16e32ed38711ea624f51aa898810b0d3)
+        ;
+
+        
+    
+    
+            var circle_marker_32fe11afd4ca92848d0d33566fb758c1 = L.circleMarker(
+                [35.72473877467402, 139.42704252396646],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_f618470ec77540e806cb7b04c7d115ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b675ae0953474c433a05acd7d0c00fa = $(`<div id="html_3b675ae0953474c433a05acd7d0c00fa" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_f618470ec77540e806cb7b04c7d115ee.setContent(html_3b675ae0953474c433a05acd7d0c00fa);
+            
+        
+
+        circle_marker_32fe11afd4ca92848d0d33566fb758c1.bindPopup(popup_f618470ec77540e806cb7b04c7d115ee)
+        ;
+
+        
+    
+    
+            var circle_marker_a885124d682a8562a64cc1fbbdf05159 = L.circleMarker(
+                [36.16052249526645, 140.07849939716172],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_e4273a9843eace06b71c1f10d4cf9262 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44acb5f62aa289293dc03e6939a00fd7 = $(`<div id="html_44acb5f62aa289293dc03e6939a00fd7" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_e4273a9843eace06b71c1f10d4cf9262.setContent(html_44acb5f62aa289293dc03e6939a00fd7);
+            
+        
+
+        circle_marker_a885124d682a8562a64cc1fbbdf05159.bindPopup(popup_e4273a9843eace06b71c1f10d4cf9262)
+        ;
+
+        
+    
+    
+            var circle_marker_ce09038e6471e6e81ea431464c05e608 = L.circleMarker(
+                [35.325173453061325, 139.75734687206509],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_b7e52490790d29dea34a54f660121ca0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43a870661849ba942651e546aaa94b5b = $(`<div id="html_43a870661849ba942651e546aaa94b5b" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_b7e52490790d29dea34a54f660121ca0.setContent(html_43a870661849ba942651e546aaa94b5b);
+            
+        
+
+        circle_marker_ce09038e6471e6e81ea431464c05e608.bindPopup(popup_b7e52490790d29dea34a54f660121ca0)
+        ;
+
+        
+    
+    
+            var circle_marker_2a4e991b4cf5b426c032253652fe6b6f = L.circleMarker(
+                [35.512368926701114, 139.027430610644],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_168b9f0b143f47ea003de8b9c25bdc28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63f9912a0287a8f14c63ff782290a3db = $(`<div id="html_63f9912a0287a8f14c63ff782290a3db" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_168b9f0b143f47ea003de8b9c25bdc28.setContent(html_63f9912a0287a8f14c63ff782290a3db);
+            
+        
+
+        circle_marker_2a4e991b4cf5b426c032253652fe6b6f.bindPopup(popup_168b9f0b143f47ea003de8b9c25bdc28)
+        ;
+
+        
+    
+    
+            var circle_marker_0e7aa1ef48212b12567e00b95611c80d = L.circleMarker(
+                [35.48014592343392, 139.73689046292557],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_17ce2bc763c0cec5b7e142cccf17dbc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9c57365264b8372fddfc9d9403a7fd7 = $(`<div id="html_a9c57365264b8372fddfc9d9403a7fd7" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_17ce2bc763c0cec5b7e142cccf17dbc0.setContent(html_a9c57365264b8372fddfc9d9403a7fd7);
+            
+        
+
+        circle_marker_0e7aa1ef48212b12567e00b95611c80d.bindPopup(popup_17ce2bc763c0cec5b7e142cccf17dbc0)
+        ;
+
+        
+    
+    
+            var circle_marker_69c03c5bf9e9fc9e980d2b3df93bc842 = L.circleMarker(
+                [34.944442525933944, 139.84295868986442],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_a2fc2f6a8807a7f76faf66acff6467d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cffeff178d20ab9ff1f021a6ac93739 = $(`<div id="html_3cffeff178d20ab9ff1f021a6ac93739" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_a2fc2f6a8807a7f76faf66acff6467d0.setContent(html_3cffeff178d20ab9ff1f021a6ac93739);
+            
+        
+
+        circle_marker_69c03c5bf9e9fc9e980d2b3df93bc842.bindPopup(popup_a2fc2f6a8807a7f76faf66acff6467d0)
+        ;
+
+        
+    
+    
+            var circle_marker_852dbb3f537964025119376c91111f58 = L.circleMarker(
+                [35.82426013853229, 139.20837128189942],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_304bf96907d72a975479896ef9253a4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4dde9ce0e3ee5090bf519f2b9d09d680 = $(`<div id="html_4dde9ce0e3ee5090bf519f2b9d09d680" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_304bf96907d72a975479896ef9253a4a.setContent(html_4dde9ce0e3ee5090bf519f2b9d09d680);
+            
+        
+
+        circle_marker_852dbb3f537964025119376c91111f58.bindPopup(popup_304bf96907d72a975479896ef9253a4a)
+        ;
+
+        
+    
+    
+            var circle_marker_737fdc9546581af66ce3f695eea0389b = L.circleMarker(
+                [35.806727636089946, 139.72716255297274],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_8cc0744d59b330cf715c0960b121b569 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8d35046a1888e9c7876b061d4df4a3e = $(`<div id="html_e8d35046a1888e9c7876b061d4df4a3e" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_8cc0744d59b330cf715c0960b121b569.setContent(html_e8d35046a1888e9c7876b061d4df4a3e);
+            
+        
+
+        circle_marker_737fdc9546581af66ce3f695eea0389b.bindPopup(popup_8cc0744d59b330cf715c0960b121b569)
+        ;
+
+        
+    
+    
+            var circle_marker_a61b954b6f8751d5fcfebe41a635dd8d = L.circleMarker(
+                [35.67875672832123, 139.67940435922299],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_10e8d98a03cd20be1b4991393e938d7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3a1c3c90d095618ef99eb3ff3e2b81a = $(`<div id="html_a3a1c3c90d095618ef99eb3ff3e2b81a" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_10e8d98a03cd20be1b4991393e938d7c.setContent(html_a3a1c3c90d095618ef99eb3ff3e2b81a);
+            
+        
+
+        circle_marker_a61b954b6f8751d5fcfebe41a635dd8d.bindPopup(popup_10e8d98a03cd20be1b4991393e938d7c)
+        ;
+
+        
+    
+    
+            var circle_marker_2ff06369080a7ca2ac31e3bb0ee6aab1 = L.circleMarker(
+                [35.55890643331243, 139.07881485108467],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3bce7d6a07b919885c2be51b7e0f0a4d);
+        
+    
+        var popup_7af2b4a769f4946cc8176f53241020c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47dcf23e7485ec65ee1449bad578ce5c = $(`<div id="html_47dcf23e7485ec65ee1449bad578ce5c" style="width: 100.0%; height: 100.0%;">Team: Japan, Cluster: 3</div>`)[0];
+                popup_7af2b4a769f4946cc8176f53241020c4.setContent(html_47dcf23e7485ec65ee1449bad578ce5c);
+            
+        
+
+        circle_marker_2ff06369080a7ca2ac31e3bb0ee6aab1.bindPopup(popup_7af2b4a769f4946cc8176f53241020c4)
+        ;
+
+        
+    
+</script>
+</html>
