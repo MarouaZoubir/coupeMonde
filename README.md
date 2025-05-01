@@ -38,7 +38,6 @@ Guidage dans les villes hôtes avec intégration des transports publics, trajets
 - **Réalité Augmentée et Virtuelle (AR/VR)** : Immersion en VR et AR pour les fans qui ne peuvent pas se déplacer.
 - **Accessibilité et Traduction** : Facilitation des échanges grâce à la traduction instantanée et la gestion des barrières linguistiques.
 
-![image](https://github.com/user-attachments/assets/470115f0-85ce-4273-9891-e0ccd97286ac)
-![image](https://github.com/user-attachments/assets/641e0cf3-a8e4-437b-a451-779afa3acf42)
+
 
 
